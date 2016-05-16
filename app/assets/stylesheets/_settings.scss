@@ -631,20 +631,22 @@ $topbar-unstack-breakpoint: medium;
     top: 0.35rem;
   }
   button + button {
-    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
 
 .welcome-button {
-	position: relative;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
 	padding: 8px 24px;
-	border:2px solid #009900;
+	border:2px solid #800000;
 	background: none;
 	cursor:pointer;
 	font-size:24px;
 	font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
-	color: #009900;
+	color: #800000;
 	-webkit-transition: all .4s linear;
 	-moz-transition: all .4s linear;
 	-o-transition: all .4s linear;
@@ -652,6 +654,6 @@ $topbar-unstack-breakpoint: medium;
 }
 
 .welcome-button:hover{
-	background: #009900;
+	background: #800000;
 	color: #FFFFFF;
 }
