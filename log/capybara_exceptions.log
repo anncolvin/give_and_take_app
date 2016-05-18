@@ -1,1 +1,10 @@
 # Logfile created on 2016-05-10 13:23:15 -0400 by logger.rb/53141
+D, [2016-05-17T21:03:03.909524 #55454] DEBUG -- : undefined local variable or method `new_user_registration_path' for #<#<Class:0x007f87fc8593b0>:0x007f87fc8487e0>
+Did you mean?  new_user_item_path
+D, [2016-05-17T21:03:03.912041 #55454] DEBUG -- : ["app/views/welcomes/index.html.erb:39:in `_app_views_welcomes_index_html_erb___2202733265839140850_70111016965740'"]
+D, [2016-05-17T21:03:04.350932 #55454] DEBUG -- : undefined local variable or method `new_user_registration_path' for #<#<Class:0x007f87fc8593b0>:0x007f87fc906c68>
+Did you mean?  new_user_item_path
+D, [2016-05-17T21:03:04.351714 #55454] DEBUG -- : ["app/views/welcomes/index.html.erb:39:in `_app_views_welcomes_index_html_erb___2202733265839140850_70111017319240'"]
+D, [2016-05-17T21:03:48.750208 #55511] DEBUG -- : undefined local variable or method `new_user' for #<#<Class:0x007fc4d3790988>:0x007fc4d3772b40>
+Did you mean?  new_user_url
+D, [2016-05-17T21:03:48.750906 #55511] DEBUG -- : ["app/views/welcomes/index.html.erb:39:in `_app_views_welcomes_index_html_erb___4203302752498007968_70241669123040'"]
