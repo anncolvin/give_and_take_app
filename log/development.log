@@ -4584,3 +4584,9 @@ puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
   Rendering /Users/anncolvin/.gem/ruby/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
   Rendered /Users/anncolvin/.gem/ruby/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/anncolvin/.gem/ruby/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (97.5ms)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "ExceptionNotification::Rack" => ExceptionNotification::Rack
+
+ (called from <top (required)> at /Users/anncolvin/challenges/give_and_take_app/config/environment.rb:5)
